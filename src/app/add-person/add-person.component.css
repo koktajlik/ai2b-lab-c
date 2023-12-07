@@ -1,0 +1,42 @@
+.form-row {
+  width: 40vw;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0.5rem;
+}
+
+label {
+  font-weight: bold;
+  padding-block: 0.5rem;
+}
+
+input {
+  border: 1px solid midnightblue;
+  padding-block: 0.5rem;
+  padding-left: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 6rem;
+  padding: 1rem;
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
+  color: white;
+  margin-left: calc(40vw - 5.5rem);
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: lightseagreen;
+  border: 1px solid lightseagreen;
+}

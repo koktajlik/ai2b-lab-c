@@ -1,0 +1,28 @@
+li {
+  margin-bottom: 10px;
+  list-style: circle;
+}
+
+a {
+  text-decoration: none;
+  color: slateblue;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: lightseagreen;
+}
+
+button {
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  border-radius: 10px;
+}
